@@ -4,7 +4,9 @@ A clean, minimalist todo list plugin for Claude Code. Pure text, no colors, geek
 
 ## Features
 
-- **Persistent Storage**: Tasks stored in `~/.claude/TODO.md` survive across sessions
+- **Smart Storage**: Automatically detects user-level or project-level installation
+  - User scope: `~/.claude/todo.md` (shared across all projects)
+  - Project scope: `{project}/.claude/todo.md` (per-project todos)
 - **Plugin Commands**: Use `/todo:list`, `/todo:add`, etc.
 - **Flexible Matching**: Operate by number OR exact description
 - **Minimalist Design**: Pure text output, works on any terminal
@@ -19,6 +21,25 @@ Install from the marketplace:
 ```
 
 Then restart Claude Code.
+
+### Installation Scopes
+
+Choose where to install the plugin:
+
+**User scope** (default):
+```bash
+/plugin install todo --scope user
+```
+- Single todo list shared across all projects
+- Stored at `~/.claude/todo.md`
+
+**Project scope**:
+```bash
+/plugin install todo --scope project
+```
+- Per-project todo lists
+- Stored at `{project}/.claude/todo.md`
+- Can be committed to version control
 
 ## Usage
 
@@ -86,13 +107,17 @@ By description:
 
 ## Data Format
 
-Tasks stored in `~/.claude/TODO.md`:
+Tasks stored in markdown format:
 ```markdown
 - [ ] Pending task
 - [x] Completed task
 ```
 
-You can edit this file directly.
+**Storage location** (auto-detected):
+- User-level install: `~/.claude/todo.md`
+- Project-level install: `{project}/.claude/todo.md`
+
+You can edit these files directly.
 
 ## Examples
 

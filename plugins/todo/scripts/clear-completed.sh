@@ -3,7 +3,8 @@
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-TODO_FILE="$HOME/.claude/TODO.md"
+# 加载路径配置
+source "$(dirname "${BASH_SOURCE[0]}")/config.sh"
 
 # Count completed tasks before deletion
 COMPLETED_COUNT=$(grep -c '^- \[x\]' "$TODO_FILE" 2>/dev/null)

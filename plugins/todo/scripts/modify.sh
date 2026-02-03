@@ -3,7 +3,9 @@
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-TODO_FILE="$HOME/.claude/TODO.md"
+# 加载路径配置
+source "$(dirname "${BASH_SOURCE[0]}")/config.sh"
+
 ARG="$1"
 NEW_DESC="$2"
 
