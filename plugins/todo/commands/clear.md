@@ -5,13 +5,18 @@ allowed-tools: ["Bash"]
 
 # /todo:clear
 
-CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
+```
+!!! CRITICAL !!! DO NOT MODIFY OUTPUT !!!
+```
 
-The script automatically shows the updated list after clearing. Do NOT add:
-- No additional summary messages
-- No greetings or intro text
-- No reformatting
-- No manual `/todo:list` calls
+**MANDATORY RULE**: Display the script output EXACTLY as-is.
+- The script automatically shows the updated list
+- **NO** additional summaries
+- **NO** greetings
+- **NO** reformatting
+- **NO** manual `/todo:list` calls
+
+**THE SCRIPT OUTPUT IS THE FINAL AND ONLY RESPONSE.**
 
 Just show the raw script output and nothing else.
 

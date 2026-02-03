@@ -5,16 +5,25 @@ allowed-tools: ["Bash"]
 
 # /todo:list
 
-CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT modify, reformat, reorganize, translate, or add ANY comments before/after the output.
+```
+!!! CRITICAL !!! CRITICAL !!! CRITICAL !!!
+DO NOT MODIFY THE SCRIPT OUTPUT - NOT A SINGLE CHARACTER !!!
+```
 
-The script output is the FINAL response. Do NOT add:
-- No greetings or intro text
-- No reformatting of the list
-- No translations or paraphrasing
-- No insights or reminders
-- No analysis of task dates
+**MANDATORY RULE**: Display the script output EXACTLY as-is.
+- **NO** reformatting
+- **NO** reorganizing
+- **NO** translating
+- **NO** greetings
+- **NO** summaries
+- **NO** insights
+- **NO** date analysis
+- **NO** emojis or decorations
 
-Just show the raw script output and nothing else.
+**THE SCRIPT OUTPUT IS THE FINAL AND ONLY RESPONSE.**
+
+Do NOT add ANY text before or after the script output.
+Just show the raw output and nothing else.
 
 Execute:
 ```!

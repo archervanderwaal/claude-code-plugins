@@ -6,14 +6,20 @@ allowed-tools: ["Bash"]
 
 # /todo:delete
 
-CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
+```
+!!! CRITICAL !!! DO NOT MODIFY OUTPUT !!!
+```
 
-The script runs silently (no output). Do NOT add:
-- No "Task deleted" messages
-- No greetings or intro text
-- No `/todo:list` calls
+**MANDATORY RULE**: Display the script output EXACTLY as-is.
+- The script runs silently (may have no output)
+- **NO** "task deleted" messages
+- **NO** greetings
+- **NO** `/todo:list` calls
+- **NO** confirmations
 
-Just show the raw script output (which may be empty) and nothing else.
+**THE SCRIPT OUTPUT IS THE FINAL AND ONLY RESPONSE.**
+
+Just show the raw script output (even if empty) and nothing else.
 
 Execute:
 ```!
