@@ -9,15 +9,12 @@ allowed-tools: ["Bash"]
 Delete a task by running the delete script.
 
 **Examples:**
-- `/todo-delete 1` - Delete task #1
-- `/todo-delete "buy milk"` - Delete task matching description
+- `/todo:delete 1` - Delete task #1
+- `/todo:delete "buy milk"` - Delete task matching description
 
+**IMPORTANT**: Just display the script output as-is. The script runs silently. Do not add any comments like "Task deleted", do not run `/todo:list`, do not reformat the output.
+
+Execute:
 ```!
 ${CLAUDE_PLUGIN_ROOT}/scripts/delete.sh "$ARGUMENTS"
-```
-
-Then list all todos to confirm:
-
-```!
-${CLAUDE_PLUGIN_ROOT}/scripts/list.sh
 ```
