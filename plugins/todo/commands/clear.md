@@ -1,5 +1,5 @@
 ---
-description: "Clear all completed tasks from the global todo list"
+description: "Clear all completed tasks"
 allowed-tools: ["Bash"]
 ---
 

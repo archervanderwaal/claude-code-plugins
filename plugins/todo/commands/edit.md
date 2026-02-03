@@ -1,5 +1,5 @@
 ---
-description: "Modify a task description in the global todo list (supports number or old description)"
+description: "Modify a task description (supports number or old description)"
 argument-hint: "<number|old description> \"new description\""
 allowed-tools: ["Bash"]
 ---

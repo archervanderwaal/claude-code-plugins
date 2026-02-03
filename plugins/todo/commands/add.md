@@ -1,5 +1,5 @@
 ---
-description: "Add a new task to the global todo list"
+description: "Add a new task to the todo list"
 argument-hint: "<task description>"
 allowed-tools: ["Bash"]
 ---

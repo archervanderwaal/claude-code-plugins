@@ -1,5 +1,5 @@
 ---
-description: "Mark a task as completed in the global todo list (supports number or description)"
+description: "Mark a task as completed (supports number or description)"
 argument-hint: "<number|task description>"
 allowed-tools: ["Bash"]
 ---

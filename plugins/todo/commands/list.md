@@ -1,5 +1,5 @@
 ---
-description: "List all todos in the global todo list"
+description: "List all todos (user-level or project-level)"
 allowed-tools: ["Bash"]
 ---
 

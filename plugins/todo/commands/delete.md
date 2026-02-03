@@ -1,5 +1,5 @@
 ---
-description: "Delete a task from the global todo list (supports number or description)"
+description: "Delete a task (supports number or description)"
 argument-hint: "<number|task description>"
 allowed-tools: ["Bash"]
 ---
