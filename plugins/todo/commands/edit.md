@@ -6,13 +6,15 @@ allowed-tools: ["Bash"]
 
 # /todo:edit
 
-Modify a task description by running the modify script.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
 
-**Examples:**
-- `/todo:edit 1 "buy bread"` - Modify task #1 to "buy bread"
-- `/todo:edit "buy milk" "buy bread and eggs"` - Rename 'buy milk' to 'buy bread and eggs'
+The script output is the FINAL response. Do NOT add:
+- No "Task modified" messages
+- No greetings or intro text
+- No reformatting
+- No `/todo:list` calls
 
-**IMPORTANT**: Just display the script output as-is. The script will show success message. Do not add any comments, do not run `/todo:list`, do not reformat the output.
+Just show the raw script output and nothing else.
 
 Execute:
 ```!

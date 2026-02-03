@@ -6,13 +6,15 @@ allowed-tools: ["Bash"]
 
 # /todo:complete
 
-Mark a task as completed by running the complete script.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
 
-**Examples:**
-- `/todo:complete 1` - Complete task #1
-- `/todo:complete "buy milk"` - Complete task matching description
+The script output is the FINAL response. Do NOT add:
+- No "Task completed" messages
+- No greetings or intro text
+- No reformatting
+- No `/todo:list` calls
 
-**IMPORTANT**: Just display the script output as-is. The script will show success message. Do not add any comments, do not run `/todo:list`, do not reformat the output.
+Just show the raw script output and nothing else.
 
 Execute:
 ```!

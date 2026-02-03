@@ -5,9 +5,15 @@ allowed-tools: ["Bash"]
 
 # /todo:clear
 
-Clear all completed tasks by running the clear script.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
 
-**IMPORTANT**: The script will automatically display the updated todo list after clearing. Do not manually run `/todo:list` again - just show the script output as-is.
+The script automatically shows the updated list after clearing. Do NOT add:
+- No additional summary messages
+- No greetings or intro text
+- No reformatting
+- No manual `/todo:list` calls
+
+Just show the raw script output and nothing else.
 
 Execute:
 ```!

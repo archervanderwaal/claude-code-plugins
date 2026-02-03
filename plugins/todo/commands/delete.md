@@ -6,13 +6,14 @@ allowed-tools: ["Bash"]
 
 # /todo:delete
 
-Delete a task by running the delete script.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
 
-**Examples:**
-- `/todo:delete 1` - Delete task #1
-- `/todo:delete "buy milk"` - Delete task matching description
+The script runs silently (no output). Do NOT add:
+- No "Task deleted" messages
+- No greetings or intro text
+- No `/todo:list` calls
 
-**IMPORTANT**: Just display the script output as-is. The script runs silently. Do not add any comments like "Task deleted", do not run `/todo:list`, do not reformat the output.
+Just show the raw script output (which may be empty) and nothing else.
 
 Execute:
 ```!

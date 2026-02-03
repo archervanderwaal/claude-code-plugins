@@ -5,9 +5,16 @@ allowed-tools: ["Bash"]
 
 # /todo:list
 
-List all todos by running the list script. **IMPORTANT**: Display the script output exactly as-is without modifying the format. Do not reformat, reorganize, or translate the output.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT modify, reformat, reorganize, translate, or add ANY comments before/after the output.
 
-After showing the raw output, you MAY add helpful insights or reminders (like urgent deadlines), but keep the original todo list intact.
+The script output is the FINAL response. Do NOT add:
+- No greetings or intro text
+- No reformatting of the list
+- No translations or paraphrasing
+- No insights or reminders
+- No analysis of task dates
+
+Just show the raw script output and nothing else.
 
 Execute:
 ```!

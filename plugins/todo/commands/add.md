@@ -6,9 +6,15 @@ allowed-tools: ["Bash"]
 
 # /todo:add
 
-Add a new task by running the add script.
+CRITICAL INSTRUCTION: Display the script output EXACTLY as-is. DO NOT add ANY comments, greetings, or additional text.
 
-**IMPORTANT**: Just display the script output as-is. The script will show success message. Do not add any comments, do not run `/todo:list`, do not reformat the output.
+The script output is the FINAL response. Do NOT add:
+- No "Task added successfully" messages
+- No greetings or intro text
+- No reformatting
+- No `/todo:list` calls
+
+Just show the raw script output and nothing else.
 
 Execute:
 ```!
