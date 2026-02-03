@@ -8,14 +8,14 @@
   },
   "plugins": [
     {
-      "name": "todo-list",
+      "name": "todo",
       "description": "Minimalist todo list plugin for Claude Code - Geek style, pure text",
       "version": "1.0.0",
       "author": {
         "name": "archer",
         "email": "coder.archer@gmail.com"
       },
-      "source": "./plugins/todo-list",
+      "source": "./plugins/todo",
       "category": "productivity"
     }
   ]

@@ -1,0 +1,9 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Minimalist todo list plugin for Claude Code - Geek style, pure text",
+  "author": {
+    "name": "archer",
+    "email": "coder.archer@gmail.com"
+  }
+}
