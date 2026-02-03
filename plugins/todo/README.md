@@ -1,30 +1,21 @@
-# Geek Todo - Minimalist Todo List for Claude Code
+# Todo - Minimalist Todo List for Claude Code
 
 A clean, minimalist todo list plugin for Claude Code. Pure text, no colors, geek style.
 
 ## Features
 
 - **Persistent Storage**: Tasks stored in `~/.claude/TODO.md` survive across sessions
-- **Plugin Commands**: Use `/todo-list`, `/todo-list:add`, etc.
+- **Plugin Commands**: Use `/todo:list`, `/todo:add`, etc.
 - **Flexible Matching**: Operate by number OR exact description
 - **Minimalist Design**: Pure text output, works on any terminal
 - **UTF-8 Support**: Handles international characters
 
 ## Installation
 
-### Install from Marketplace
+Install from the marketplace:
 
 ```bash
-/plugin marketplace add archervanderwaal/claude-code-todo-plugin
-```
-
-Then restart Claude Code.
-
-### Manual Install
-
-```bash
-cd ~/.claude/plugins/local
-git clone https://github.com/archervanderwaal/claude-code-todo-plugin.git
+/plugin marketplace add https://github.com/archervanderwaal/claude-code-plugins.git
 ```
 
 Then restart Claude Code.
@@ -34,7 +25,7 @@ Then restart Claude Code.
 ### List todos
 
 ```
-/todo-list
+/todo:list
 ```
 
 Output:
@@ -49,49 +40,49 @@ PENDING
 ### Add task
 
 ```
-/todo-list:add Review pull requests
+/todo:add Review pull requests
 ```
 
 ### Complete task
 
 By number:
 ```
-/todo-list:complete 1
+/todo:complete 1
 ```
 
 By description:
 ```
-/todo-list:complete "Review PRs"
+/todo:complete "Review PRs"
 ```
 
 ### Delete task
 
 ```
-/todo-list:delete 2
+/todo:delete 2
 ```
 
 ### Edit task
 
 ```
-/todo-list:edit 1 "Review all pull requests by Friday"
+/todo:edit 1 "Review all pull requests by Friday"
 ```
 
 ### Clear completed
 
 ```
-/todo-list:clear
+/todo:clear
 ```
 
 ## Command Reference
 
 | Command | Description |
 |---------|-------------|
-| `/todo-list` | List all todos |
-| `/todo-list:add <task>` | Add new task |
-| `/todo-list:complete <number\|task>` | Mark as completed |
-| `/todo-list:delete <number\|task>` | Delete task |
-| `/todo-list:edit <number\|old> "new"` | Modify description |
-| `/todo-list:clear` | Clear all completed tasks |
+| `/todo:list` | List all todos |
+| `/todo:add <task>` | Add new task |
+| `/todo:complete <number\|task>` | Mark as completed |
+| `/todo:delete <number\|task>` | Delete task |
+| `/todo:edit <number\|old> "new"` | Modify description |
+| `/todo:clear` | Clear all completed tasks |
 
 ## Data Format
 
@@ -107,24 +98,24 @@ You can edit this file directly.
 
 ```bash
 # Add tasks
-/todo-list:add Buy groceries
-/todo-list:add Call mom
-/todo-list:add Finish report
+/todo:add Buy groceries
+/todo:add Call mom
+/todo:add Finish report
 
 # List todos
-/todo-list
+/todo:list
 
 # Complete first task
-/todo-list:complete 1
+/todo:complete 1
 
 # Edit second task
-/todo-list:edit 2 "Call mom about birthday"
+/todo:edit 2 "Call mom about birthday"
 
 # Delete third task
-/todo-list:delete 3
+/todo:delete 3
 
 # Clean up completed
-/todo-list:clear
+/todo:clear
 ```
 
 ## Author
