@@ -1,6 +1,6 @@
 # Claude Plugins
 
-Collection of Claude Code plugins for productivity and development.
+Minimalist plugins for Claude Code.
 
 ## Installation
 
