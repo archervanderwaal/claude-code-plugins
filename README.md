@@ -1,4 +1,4 @@
-# Claude Plugins
+# Minimalist Plugins
 
 Minimalist plugins for Claude Code.
 
