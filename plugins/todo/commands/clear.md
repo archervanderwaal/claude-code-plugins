@@ -5,14 +5,11 @@ allowed-tools: ["Bash"]
 
 # /todo:clear
 
-Clear all completed tasks by running the clear script:
+Clear all completed tasks by running the clear script.
 
+**IMPORTANT**: The script will automatically display the updated todo list after clearing. Do not manually run `/todo:list` again - just show the script output as-is.
+
+Execute:
 ```!
 ${CLAUDE_PLUGIN_ROOT}/scripts/clear-completed.sh
-```
-
-Then list all todos to confirm:
-
-```!
-${CLAUDE_PLUGIN_ROOT}/scripts/list.sh
 ```

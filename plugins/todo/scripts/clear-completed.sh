@@ -18,3 +18,7 @@ fi
 # Remove all completed tasks
 sed -i '' '/^- \[x\]/d' "$TODO_FILE"
 echo "Cleared $COMPLETED_COUNT completed task(s)"
+echo ""
+
+# 自动显示更新后的列表
+"$(dirname "${BASH_SOURCE[0]}")/list.sh"
