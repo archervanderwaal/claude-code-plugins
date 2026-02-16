@@ -5,7 +5,7 @@ Minimalist plugins for Claude Code.
 ## Installation
 
 ```bash
-/plugin marketplace add https://github.com/archervanderwaal/claude-code-plugins.git
+/plugin marketplace add https://github.com/0xarcher/claude-code-plugins.git
 ```
 
 Then restart Claude Code.
